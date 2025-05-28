@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Fitness Gear - Top Rated Equipment & Accessories</title>
+    <meta name="description" content="Discover the best fitness equipment, cardio machines, supplements, and wearable tech to transform your workouts. Expert recommendations with Amazon affiliate links.">
+    <meta name="keywords" content="fitness equipment, workout gear, strength training, cardio machines, supplements, wearable tech">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --success: #27ae60;
+            --warning: #f39c12;
+            --text: #333;
+            --text-light: #7f8c8d;
+            --white: #fff;
+            --gray: #95a5a6;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--light);
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        
+        a {
+            text-decoration: none;
+            color: var(--secondary);
+            transition: var(--transition);
+        }
+        
+        a:hover {
+            color: var(--accent);
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 1rem 0;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: var(--white);
+        }
+        
+        .logo span {
+            color: var(--accent);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 1.5rem;
+        }
+        
+        nav ul li a {
+            color: var(--white);
+            font-weight: 600;
+            padding: 0.5rem 0;
+            position: relative;
+        }
+        
+        nav ul li a:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            bottom: 0;
+            left: 0;
+            transition: var(--transition);
+        }
+        
+        nav ul li a:hover:after {
+            width: 100%;
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--white);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: var(--white);
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: var(--white);
+            padding: 0.8rem 1.8rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: var(--secondary);
+            color: var(--white);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid var(--white);
+            margin-left: 1rem;
+        }
+        
+        .btn-outline:hover {
+            background-color: var(--white);
+            color: var(--primary);
+        }
+        
+        /* Features Section */
+        .features {
+            padding: 5rem 0;
+            background-color: var(--white);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title h2:after {
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 3px;
+            background-color: var(--accent);
+            bottom: -10px;
+            left: 25%;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .feature-card {
+            background-color: var(--light);
+            border-radius: 10px;
+            padding: 2rem;
+            text-align: center;
+            transition: var(--transition);
+            box-shadow: var(--shadow);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+        }
+        
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        /* Categories Section */
+        .categories {
+            padding: 5rem 0;
+            background-color: var(--light);
+        }
+        
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .category-card {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            height: 300px;
+        }
+        
+        .category-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        
+        .category-card:hover img {
+            transform: scale(1.1);
+        }
+        
+        .category-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+            padding: 2rem 1.5rem;
+            color: var(--white);
+        }
+        
+        .category-overlay h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Products Section */
+        .products {
+            padding: 5rem 0;
+            background-color: var(--white);
+        }
+        
+        .products-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .tab-btn {
+            padding: 0.8rem 1.5rem;
+            background-color: var(--light);
+            border: none;
+            margin: 0 0.5rem 1rem;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        
+        .tab-btn.active {
+            background-color: var(--accent);
+            color: var(--white);
+        }
+        
+        .tab-btn:hover:not(.active) {
+            background-color: var(--gray);
+            color: var(--white);
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        
+        .product-card {
+            background-color: var(--light);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product-img {
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .product-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        
+        .product-card:hover .product-img img {
+            transform: scale(1.05);
+        }
+        
+        .product-info {
+            padding: 1.5rem;
+        }
+        
+        .product-info h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .product-price {
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        
+        .product-rating {
+            color: var(--warning);
+            margin-bottom: 1rem;
+        }
+        
+        .product-btn {
+            display: block;
+            text-align: center;
+            background-color: var(--secondary);
+            color: var(--white);
+            padding: 0.6rem;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+        
+        .product-btn:hover {
+            background-color: var(--primary);
+        }
+        
+        /* Testimonials Section */
+        .testimonials {
+            padding: 5rem 0;
+            background-color: var(--light);
+        }
+        
+        .testimonials-slider {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .testimonial-card {
+            background-color: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            margin: 0 1rem;
+        }
+        
+        .testimonial-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 1rem;
+            border: 5px solid var(--light);
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 1.5rem;
+        }
+        
+        .testimonial-author {
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        /* Newsletter Section */
+        .newsletter {
+            padding: 5rem 0;
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+            color: var(--white);
+            text-align: center;
+        }
+        
+        .newsletter h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .newsletter p {
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            font-size: 1.1rem;
+        }
+        
+        .newsletter-form {
+            display: flex;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .newsletter-form input {
+            flex: 1;
+            padding: 1rem;
+            border: none;
+            border-radius: 50px 0 0 50px;
+            font-size: 1rem;
+        }
+        
+        .newsletter-form button {
+            padding: 0 2rem;
+            background-color: var(--accent);
+            color: var(--white);
+            border: none;
+            border-radius: 0 50px 50px 0;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        
+        .newsletter-form button:hover {
+            background-color: var(--secondary);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: var(--white);
+            padding: 4rem 0 2rem;
+        }
+        
+        .footer-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-col h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+        
+        .footer-col h3:after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 2px;
+            background-color: var(--accent);
+            bottom: 0;
+            left: 0;
+        }
+        
+        .footer-col ul {
+            list-style: none;
+        }
+        
+        .footer-col ul li {
+            margin-bottom: 0.8rem;
+        }
+        
+        .footer-col ul li a {
+            color: var(--gray);
+            transition: var(--transition);
+        }
+        
+        .footer-col ul li a:hover {
+            color: var(--white);
+            padding-left: 5px;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: var(--white);
+            transition: var(--transition);
+        }
+        
+        .social-links a:hover {
+            background-color: var(--accent);
+            transform: translateY(-3px);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: var(--accent);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            box-shadow: var(--shadow);
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            z-index: 99;
+        }
+        
+        .back-to-top.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .back-to-top:hover {
+            background-color: var(--primary);
+            transform: translateY(-5px);
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            .hero h1 {
+                font-size: 2.8rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav ul {
+                margin-top: 1.5rem;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .btn {
+                padding: 0.6rem 1.2rem;
+                font-size: 0.9rem;
+            }
+            
+            .section-title h2 {
+                font-size: 2rem;
+            }
+            
+            .newsletter-form {
+                flex-direction: column;
+            }
+            
+            .newsletter-form input {
+                border-radius: 50px;
+                margin-bottom: 1rem;
+            }
+            
+            .newsletter-form button {
+                border-radius: 50px;
+                padding: 1rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .hero {
+                height: 70vh;
+            }
+            
+            .section-title h2 {
+                font-size: 1.8rem;
+            }
+            
+            .footer-container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            
+            .footer-col h3:after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            
+            .social-links {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Fitness<span>Hub</span></a>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#strength">Strength</a></li>
+                    <li><a href="#cardio">Cardio</a></li>
+                    <li><a href="#accessories">Accessories</a></li>
+                    <li><a href="#supplements">Supplements</a></li>
+                    <li><a href="#wearables">Wearables</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transform Your Workout With Premium Fitness Gear</h1>
+                <p>Discover the best strength training equipment, cardio machines, and fitness accessories to take your workouts to the next level. All products are carefully selected for quality and performance.</p>
+                <div>
+                    <a href="#products" class="btn">Shop Now</a>
+                    <a href="#features" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Our Recommended Products</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Top Rated Quality</h3>
+                    <p>We only recommend products with high customer ratings and proven durability to ensure your satisfaction.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Fast Shipping</h3>
+                    <p>All products are available on Amazon with Prime shipping options for quick delivery to your doorstep.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Best Value</h3>
+                    <p>We've compared hundreds of products to bring you the best combination of quality and affordability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <div class="section-title">
+                <h2>Shop By Category</h2>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Strength Training">
+                    <div class="category-overlay">
+                        <h3>Strength Training</h3>
+                        <a href="#strength" class="btn">View Products</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Cardio Machines">
+                    <div class="category-overlay">
+                        <h3>Cardio Machines</h3>
+                        <a href="#cardio" class="btn">View Products</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="Fitness Accessories">
+                    <div class="category-overlay">
+                        <h3>Fitness Accessories</h3>
+                        <a href="#accessories" class="btn">View Products</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" alt="Sports Supplements">
+                    <div class="category-overlay">
+                        <h3>Sports Supplements</h3>
+                        <a href="#supplements" class="btn">View Products</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Products</h2>
+            </div>
+            
+            <div class="products-tabs">
+                <button class="tab-btn active" data-tab="strength">Strength Training</button>
+                <button class="tab-btn" data-tab="cardio">Cardio Machines</button>
+                <button class="tab-btn" data-tab="accessories">Accessories</button>
+                <button class="tab-btn" data-tab="supplements">Supplements</button>
+                <button class="tab-btn" data-tab="wearables">Wearables</button>
+            </div>
+            
+            <!-- Strength Training Products -->
+            <div class="tab-content active" id="strength">
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71YyQ9Q3XzL._AC_SL1500_.jpg" alt="Gritin Resistance Bands">
+                        </div>
+                        <div class="product-info">
+                            <h3>Gritin Resistance Bands</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4,287)</span>
+                            </div>
+                            <div class="product-price">$23.99</div>
+                            <a href="https://amzn.to/3FqAZfi" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71n+8Q+5J0L._AC_SL1500_.jpg" alt="Amazon Basics Neoprene Dumbbell Pair">
+                        </div>
+                        <div class="product-info">
+                            <h3>Amazon Basics Neoprene Dumbbell Pair</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(12,543)</span>
+                            </div>
+                            <div class="product-price">$27.99</div>
+                            <a href="https://amzn.to/43ucTbq" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71X4YyQd8RL._AC_SL1500_.jpg" alt="Amazon Basics Cast Iron Kettlebell">
+                        </div>
+                        <div class="product-info">
+                            <h3>Amazon Basics Cast Iron Kettlebell</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(8,762)</span>
+                            </div>
+                            <div class="product-price">$35.99</div>
+                            <a href="https://amzn.to/3SoSBLh" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71h8W9X0K9L._AC_SL1500_.jpg" alt="NIYIKOW Hand Grip Strengthener">
+                        </div>
+                        <div class="product-info">
+                            <h3>NIYIKOW Hand Grip Strengthener</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(15,329)</span>
+                            </div>
+                            <div class="product-price">$16.99</div>
+                            <a href="https://amzn.to/4kAXNrp" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71lX1+4Yw5L._AC_SL1500_.jpg" alt="HOMCOM Rubber Dumbbell Sports Hex Weights">
+                        </div>
+                        <div class="product-info">
+                            <h3>HOMCOM Rubber Dumbbell Sports Hex Weights</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(3,421)</span>
+                            </div>
+                            <div class="product-price">$39.99</div>
+                            <a href="https://amzn.to/43AlxoG" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Cardio Machines Products -->
+            <div class="tab-content" id="cardio">
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/61+J5bQh3ZL._AC_SL1500_.jpg" alt="Walking Pad">
+                        </div>
+                        <div class="product-info">
+                            <h3>Walking Pad</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(2,874)</span>
+                            </div>
+                            <div class="product-price">$299.99</div>
+                            <a href="https://amzn.to/4dBXnip" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/61X6c5+ZQAL._AC_SL1500_.jpg" alt="WeightWorld Vibration Plate Exercise Machine">
+                        </div>
+                        <div class="product-info">
+                            <h3>WeightWorld Vibration Plate Exercise Machine</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4,521)</span>
+                            </div>
+                            <div class="product-price">$149.99</div>
+                            <a href="https://amzn.to/4jl6QM8" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/61Q+2Qq4QTL._AC_SL1500_.jpg" alt="Mini Exercise Bike Portable Home Pedal Exerciser">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mini Exercise Bike Portable Home Pedal Exerciser</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(7,842)</span>
+                            </div>
+                            <div class="product-price">$49.99</div>
+                            <a href="https://amzn.to/4kIHGsa" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="JLL Aerobic Exercise Stepper">
+                        </div>
+                        <div class="product-info">
+                            <h3>JLL Aerobic Exercise Stepper</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(1,543)</span>
+                            </div>
+                            <div class="product-price">$59.99</div>
+                            <a href="https://amzn.to/3SrI2qV" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="Foldable Treadmill XEO HOME">
+                        </div>
+                        <div class="product-info">
+                            <h3>Foldable Treadmill XEO HOME</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(892)</span>
+                            </div>
+                            <div class="product-price">$399.99</div>
+                            <a href="https://amzn.to/43NDNw6" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Fitness Accessories Products -->
+            <div class="tab-content" id="accessories">
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="Skipping Rope">
+                        </div>
+                        <div class="product-info">
+                            <h3>Skipping Rope</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(9,421)</span>
+                            </div>
+                            <div class="product-price">$12.99</div>
+                            <a href="https://amzn.to/4kqfVVa" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="BEAR GRIP Straps">
+                        </div>
+                        <div class="product-info">
+                            <h3>BEAR GRIP Straps</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(5,327)</span>
+                            </div>
+                            <div class="product-price">$19.99</div>
+                            <a href="https://amzn.to/43B9MP0" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="PROIRON Extra Thick Exercise Pregnancy Ball">
+                        </div>
+                        <div class="product-info">
+                            <h3>PROIRON Extra Thick Exercise Pregnancy Ball</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(3,842)</span>
+                            </div>
+                            <div class="product-price">$24.99</div>
+                            <a href="https://amzn.to/452FZBf" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="EYQ Water Bottle">
+                        </div>
+                        <div class="product-info">
+                            <h3>EYQ Water Bottle</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(7,521)</span>
+                            </div>
+                            <div class="product-price">$16.99</div>
+                            <a href="https://amzn.to/4kDBRfq" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="AQF Power Weight Lifting Wrist Wraps">
+                        </div>
+                        <div class="product-info">
+                            <h3>AQF Power Weight Lifting Wrist Wraps</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(2,843)</span>
+                            </div>
+                            <div class="product-price">$14.99</div>
+                            <a href="https://amzn.to/43B0lPx" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sports Supplements Products -->
+            <div class="tab-content" id="supplements">
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="HIGH5 ZERO Electrolyte Tablet">
+                        </div>
+                        <div class="product-info">
+                            <h3>HIGH5 ZERO Electrolyte Tablet</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(1,842)</span>
+                            </div>
+                            <div class="product-price">$19.99</div>
+                            <a href="https://amzn.to/43MRtrg" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="Science In Sport Hydro Hydration Tablets">
+                        </div>
+                        <div class="product-info">
+                            <h3>Science In Sport Hydro Hydration Tablets</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(3,521)</span>
+                            </div>
+                            <div class="product-price">$24.99</div>
+                            <a href="https://amzn.to/43AKxMC" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="Optimum Nutrition Gold Standard">
+                        </div>
+                        <div class="product-info">
+                            <h3>Optimum Nutrition Gold Standard</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(42,843)</span>
+                            </div>
+                            <div class="product-price">$34.99</div>
+                            <a href="https://amzn.to/43f6FNM" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="Warrior Creatine Monohydrate Powder">
+                        </div>
+                        <div class="product-info">
+                            <h3>Warrior Creatine Monohydrate Powder</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(5,421)</span>
+                            </div>
+                            <div class="product-price">$21.99</div>
+                            <a href="https://amzn.to/4jydNd6" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="Optimum Nutrition Micronised Creatine Powder">
+                        </div>
+                        <div class="product-info">
+                            <h3>Optimum Nutrition Micronised Creatine Powder</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(12,843)</span>
+                            </div>
+                            <div class="product-price">$29.99</div>
+                            <a href="https://amzn.to/43ylJoF" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Wearable Technology Products -->
+            <div class="tab-content" id="wearables">
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="Samsung Galaxy Fit3">
+                        </div>
+                        <div class="product-info">
+                            <h3>Samsung Galaxy Fit3</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(3,421)</span>
+                            </div>
+                            <div class="product-price">$99.99</div>
+                            <a href="https://amzn.to/43E9KWx" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="Google Fitbit Inspire 3">
+                        </div>
+                        <div class="product-info">
+                            <h3>Google Fitbit Inspire 3</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(8,421)</span>
+                            </div>
+                            <div class="product-price">$79.99</div>
+                            <a href="https://amzn.to/4kBJtPt" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="Google Fitbit Charge 6">
+                        </div>
+                        <div class="product-info">
+                            <h3>Google Fitbit Charge 6</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(5,421)</span>
+                            </div>
+                            <div class="product-price">$149.99</div>
+                            <a href="https://amzn.to/4kDCDck" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="HUAWEI Band 10 Smartwatch">
+                        </div>
+                        <div class="product-info">
+                            <h3>HUAWEI Band 10 Smartwatch</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(2,421)</span>
+                            </div>
+                            <div class="product-price">$59.99</div>
+                            <a href="https://amzn.to/3HeaMkq" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://m.media-amazon.com/images/I/71J8+5zZQZL._AC_SL1500_.jpg" alt="TAURI 2 Pack Hard Case for Apple Watch">
+                        </div>
+                        <div class="product-info">
+                            <h3>TAURI 2 Pack Hard Case for Apple Watch</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(1,421)</span>
+                            </div>
+                            <div class="product-price">$12.99</div>
+                            <a href="https://amzn.to/4mAKN6U" class="product-btn" target="_blank">View on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Customers Say</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah J." class="testimonial-img">
+                    <p class="testimonial-text">"The resistance bands and dumbbells I purchased through this site have completely transformed my home workouts. The quality is exceptional and the prices were unbeatable!"</p>
+                    <div class="testimonial-author">Sarah J.</div>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Join Our Fitness Community</h2>
+            <p>Subscribe to our newsletter for exclusive product recommendations, workout tips, and special discounts delivered straight to your inbox.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>FitnessHub</h3>
+                    <p>Your trusted source for premium fitness equipment and accessories. We help you find the best gear to achieve your fitness goals.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#strength">Strength Training</a></li>
+                        <li><a href="#cardio">Cardio Machines</a></li>
+                        <li><a href="#accessories">Accessories</a></li>
+                        <li><a href="#supplements">Supplements</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> support@fitnesshub.com</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Fitness St, Workout City, FC 12345</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 FitnessHub. All Rights Reserved. | As an Amazon Associate I earn from qualifying purchases.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const nav = document.querySelector('nav ul');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            nav.classList.toggle('show');
+        });
+        
+        // Tab Functionality
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+        
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons and contents
+                tabBtns.forEach(btn => btn.classList.remove('active'));
+                tabContents.forEach(content => content.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding content
+                btn.classList.add('active');
+                const tabId = btn.getAttribute('data-tab');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+        
+        // Back to Top Button
+        const backToTopBtn = document.querySelector('.back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('active');
+            } else {
+                backToTopBtn.classList.remove('active');
+            }
+        });
+        
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (nav.classList.contains('show')) {
+                        nav.classList.remove('show');
+                    }
+                }
+            });
+        });
+        
+        // Newsletter Form Submission
+        const newsletterForm = document.querySelector('.newsletter-form');
+        if (newsletterForm) {
+            newsletterForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const emailInput = this.querySelector('input[type="email"]');
+                if (emailInput.value) {
+                    alert('Thank you for subscribing to our newsletter!');
+                    emailInput.value = '';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
